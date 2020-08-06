@@ -1,25 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import image from "./images/expand-vertical-4.svg";
+import { AppContainer } from "./App.styles";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <AppContainer>
+      <header>
+        <img src={image} alt="React 101" />
+        <h1>Collapsible</h1>
       </header>
-    </div>
+    </AppContainer>
   );
 }
 
